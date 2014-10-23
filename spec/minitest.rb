@@ -15,4 +15,10 @@ describe 'the_newslens_test' do
     end
   end
 
+  it 'it is a date string' do
+    @newsfound.each do |x|
+        x['date'].must_be_instance_of Date
+    end
+  end
+  
 end
