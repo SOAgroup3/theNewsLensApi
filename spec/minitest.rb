@@ -20,5 +20,11 @@ describe 'the_newslens_test' do
         x['date'].must_be_instance_of Date
     end
   end
+
+  it 'it is close to 2013' do
+    @newsfound.each do |x|
+      x['date'].year.must_be_close_to 2013, 2
+    end
+  end
   
 end
