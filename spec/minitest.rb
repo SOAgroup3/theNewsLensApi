@@ -1,10 +1,10 @@
 require 'minitest/spec'
 require 'minitest/autorun'
-require './newsdigests.rb'
+require './newsdigest.rb'
 
 describe 'the_newslens_test' do
   before do
-    @newsfound = Scarper::NewsLens.gets_news
+    @newsfound = Scraper::NewsLens.gets_news
   end
 
   it 'they are not nil' do

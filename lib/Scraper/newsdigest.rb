@@ -1,6 +1,6 @@
-require_relative 'scarpers.rb'
+require_relative 'scraper.rb'
 
-newsfound = Scarper::NewsLens.gets_news
+newsfound = Scraper::NewsLens.gets_news
 
 File.open('test.txt', 'w') do |file|  
   # use "\n" for two lines of text  
