@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'open-uri'
 require 'yaml'
 require 'date'
-module Scarper
+module Scraper
   # class for NewsLens
   class NewsLens
     LINK = 'http://www.thenewslens.com'
