@@ -30,5 +30,6 @@ date: 2014-10-18
 ###Instruction
 > Install it with the following command:
 ```gem install thenewslensapi```
+
 > Then in your file:
 ```require "thenewslensapi"```
