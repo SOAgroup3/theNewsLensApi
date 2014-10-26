@@ -8,3 +8,4 @@ File.open('test.txt', 'w') do |file|
   		file.puts x.to_yaml 		
 	end
 end
+

@@ -34,6 +34,7 @@ module Scraper
         values[2] = Date.parse(values[2])
         my_hash = Hash[col_name.zip values]
         #my_hash.to_yaml
+        
       end      
     end
   end
