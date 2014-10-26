@@ -15,10 +15,8 @@ It can let users to discuss the news and make comments.
 > To run this project, you should install the gem by the following command. 
 ```gem install thenewslensapi```
 Then you can require the library in ruby.
-and our program will put out a new file(test.txt) in the directory. The file shows the titles, author and lauched time of the news in NewsLens.com's main page. No parameters is needed.
-For example, if we type
-```ruby newsdigests.rb``` 
-
+Hence, our program will put out a new file(test.txt) in the directory. The file shows the titles, author and lauched time of the news in NewsLens.com's main page. No parameters is needed.
+For example, if we type```ruby newsdigests.rb``` 
 in command line, it will produce a file call "test.txt". The outcome of the file will be look like this:
 > <pre> 
 ---
