@@ -4,7 +4,7 @@ require 'scraper/version'
 Gem::Specification.new do |s|
   s.name        =  'thenewslensapi'
   s.version     =  Scraper::VERSION
-  s.executables << 'scraper'
+  s.executables << 'thenewslensapi'
   s.date        =  '2014-10-23'
   s.summary     =  'Grab the news information from theNewsLens'
   s.description =  'Automatically give you the titles of latest news.'
