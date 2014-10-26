@@ -4,7 +4,7 @@ require './newsdigest.rb'
 
 describe 'the_newslens_test' do
   before do
-    @newsfound = Scraper::NewsLens.gets_news
+    @newsfound = Thenewslensapi::NewsLens.gets_news
   end
 
   it 'they are not nil' do
