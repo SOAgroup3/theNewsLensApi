@@ -16,7 +16,10 @@ It can let users to discuss the news and make comments.
 ```gem install thenewslensapi```
 Then you can require the library in ruby.
 and our program will put out a new file(test.txt) in the directory. The file shows the titles, author and lauched time of the news in NewsLens.com's main page. No parameters is needed.
-For example, if we type ```ruby newsdigests.rb``` in command line, it will produce a file call "test.txt". The outcome of the file will be look like this:
+For example, if we type
+```ruby newsdigests.rb``` 
+
+in command line, it will produce a file call "test.txt". The outcome of the file will be look like this:
 > <pre> 
 ---
 title: 習近平點名批評央視「大褲衩」，北京此後不再興建奇怪建築
