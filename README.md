@@ -27,3 +27,8 @@ author: TNL 編輯
 date: 2014-10-18
 </pre>
 
+###Instruction
+Install it with the following command:
+```gem install thenewslensapi```
+Then in your file:
+```require "thenewslensapi"```
