@@ -1,4 +1,4 @@
-require 'Scraper'
+require 'scraper'
 
 newsfound = Scraper::NewsLens.gets_news
 

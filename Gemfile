@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
-gem 'Scraper'
+
+gemspec
+
 group :test do
   gem 'rake'
 end
