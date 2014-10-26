@@ -1,5 +1,5 @@
 
-## The-Newslens_HW - A RSS reader by ourselves
+## The-Newslens API - A RSS reader by ourselves
 
 Authors : LinAnita, peyruchao(peggy) and ethancychen
 
