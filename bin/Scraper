@@ -1,4 +1,5 @@
-require 'scraper'
+#!/usr/bin/env ruby
+require 'scraper'                            # for production
 
 newsfound = Scraper::NewsLens.gets_news
 

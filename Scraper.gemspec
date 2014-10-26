@@ -1,8 +1,8 @@
 $:.push File.expand_path("../lib", __FILE__)
-require 'Scraper/version'
+require 'scraper/version'
 
 Gem::Specification.new do |s|
-  s.name        =  'scraper'
+  s.name        =  'thenewslensapi'
   s.version     =  Scraper::VERSION
   s.executables << 'scraper'
   s.date        =  '2014-10-23'
