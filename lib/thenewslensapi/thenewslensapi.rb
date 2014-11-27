@@ -26,10 +26,12 @@ module Thenewslensapi
     end
     def self.to_yaml(item)
       my_hash = {}
+
       col_name = ["title","author","date","somthing"]
       item.map do |x|
         x.strip!
         x.gsub!(/\n+\s+/,"\n")
+
         values = x.split("\n")
         values[2] = Date.parse(values[2])
         my_hash = Hash[col_name.zip values]
